@@ -132,14 +132,6 @@ QQ.prototype._oauth = function () {
                 client_secret:self.options.app_secret,
                 redirect_uri:self.options.redirect_uri
             };
-            /**
-             * {
-    "access_token": "10000|5.a6b7dbd428f731035f771b8d15063f61.86400.1292922000-222209506",
-    "expires_in": 87063,
-    "refresh_token": "10000|0.385d55f8615fdfd9edb7c4b5ebdc3e39-222209506",
-    "scope": "read_user_album read_user_feed"
-}
-             */
             var post_body = querystring.stringify(options);
             var headers = {};
         //    headers ["Content-length"] = post_body ? post_body.length : 0;
