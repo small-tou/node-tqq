@@ -1,7 +1,7 @@
 {
-  "name": "tencent",
+  "name": "tqq",
   "version": "0.0.1",
-  "description": "nodejs版qq网oauth认证和api sdk",
+  "description": "nodejs版腾讯微博 sdk",
   "main": "lib/index.js",
   "keywords":[
       "sdk", "qq","api","openapi"

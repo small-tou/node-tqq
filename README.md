@@ -1,6 +1,7 @@
 
-node-qq
+node-tqq
 =======
 
-nodejs版腾讯api sdk
->>>>>>> d114904e569500389cf5b6ff4ae852e4d11ea65d
+nodejs版腾讯微博api sdk
+
+npm install tqq
